@@ -11,10 +11,10 @@ echo "client" > $path
 echo "remote $Sip 1194" >> $path
 echo "proto udp" >> $path
 echo "dev tun" >> $path
-echo "ca ca.crt" >> $cpath
+echo "ca ca.crt" >> $path
 echo "cert client01.crt" >> $path
 echo "key client01.key" >> $path
-echo "remote-cert-tls server" >> $cpath
+echo "remote-cert-tls server" >> $path
 echo "ping-timer-rem" >> $path
 echo "keepalive 20 180" >> $path
 
