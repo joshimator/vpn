@@ -1,6 +1,7 @@
 #!/bin/bash
 
 apt update
+echo Auf Netzwerkbrücke umstellen!
 echo Welche IP-Adresse soll genutzt werden?
 read ip
 
