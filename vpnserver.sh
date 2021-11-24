@@ -1,6 +1,6 @@
 apt install openvpn easy-rsa -y
 modprobe tun
-make­-cadir /root/my_ca
+make-cadir /root/my_ca
 cd /root/my_ca
 bash easyrsa clean-­all
 bash easyrsa build-­ca nopass
