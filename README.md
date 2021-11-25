@@ -4,9 +4,9 @@ git clone https://github.com/joshimator/vpn
 cd vpn  
 bash network.sh  
 bash vpnserver.sh
-reboot
+reboot  
 clone VM  
 cd vpn  
-bash network.sh
+bash network.sh  
 bash vpnclient.sh  
 reboot
