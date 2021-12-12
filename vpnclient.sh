@@ -5,7 +5,7 @@ rm /etc/openvpn/server.conf
 path="/etc/openvpn/client.conf"
 
 echo Server-IP:
-read Sip
+read $ip
 
 echo "client" > $path
 echo "remote $Sip 1194" >> $path
