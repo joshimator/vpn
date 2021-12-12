@@ -8,7 +8,7 @@ echo Server-IP:
 read $ip
 
 echo "client" > $path
-echo "remote $Sip 1194" >> $path
+echo "remote $ip 1194" >> $path
 echo "proto udp" >> $path
 echo "dev tun" >> $path
 echo "ca ca.crt" >> $path
