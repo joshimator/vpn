@@ -5,7 +5,7 @@ rm /etc/openvpn/server.conf
 path="/etc/openvpn/client.conf"
 
 echo Server-IP:
-read $ip
+read ip
 
 echo "client" > $path
 echo "remote $ip 1194" >> $path
