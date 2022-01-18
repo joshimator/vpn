@@ -19,7 +19,7 @@ cp /root/my_ca/pki/private/client01.key /etc/openvpn/
 
 path="/etc/openvpn/server.conf"
 
-echo "server 192.168.0.0 255.255.255.0" > $path
+echo "server 10.8.0.0 255.255.255.0" > $path
 echo "port 1194" >> $path
 echo "proto udp" >> $path
 echo "dev tun" >> $path
